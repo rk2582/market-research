@@ -1,0 +1,68 @@
+[project]
+name = "delphi-market360"
+version = "0.1.0"
+description = "Delphi Market360 — AI market research and competitive intelligence (POC backend)"
+requires-python = ">=3.12,<3.13"
+# Exact pins. Mostly the agno-orchestrator's versions; agno moved to 2.9.0 in M5 (security advisory on 2.5.17).
+dependencies = [
+    "agno==2.9.0",
+    "fastapi==0.135.3",
+    "uvicorn[standard]==0.44.0",
+    "sqlalchemy[asyncio]==2.0.49",
+    "asyncpg==0.31.0",
+    "psycopg[binary]==3.3.6",
+    "alembic==1.18.4",
+    "pydantic==2.13.1",
+    "pydantic-settings==2.14.2",
+    "openai==2.32.0",
+    "tavily-python==0.7.23",
+    "httpx==0.28.1",
+    "python-multipart==0.0.32",  # needed by AgentOS form routes (agno 2.9 no longer installs it)
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.0.3",
+    "pytest-asyncio==1.3.0",
+    "pytest-cov==7.1.0",
+    "aiosqlite==0.22.1",
+    "ruff==0.17.1",
+    "bandit==1.9.4",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+    "integration: needs the local PostgreSQL database (run with: pytest -m integration)",
+    "live: calls real OpenAI/Tavily APIs and costs money/credits (run with: pytest -m live)",
+]
+addopts = "-m 'not integration and not live'"
+filterwarnings = [
+    # Agno 2.5.17 registers two component-config routes with the same OpenAPI operation id (Agno's issue, harmless).
+    "ignore:Duplicate Operation ID get_config:UserWarning",
+]
+
+[tool.coverage.run]
+source = ["."]
+omit = ["tests/*", "migrations/*", ".venv/*"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+skip_empty = true
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+extend-exclude = ["migrations/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "S", "B", "UP"]
+ignore = ["S101", "B008"]
+
+[tool.bandit]
+exclude_dirs = ["tests", ".venv"]

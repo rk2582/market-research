@@ -1,0 +1,440 @@
+{
+  "query": "Notion",
+  "elapsed_s": 33.4,
+  "findings": {
+    "company": {
+      "name": "Notion",
+      "website": "https://www.notion.com/enterprise",
+      "identity_note": {
+        "text": "Matched to Notion Labs Inc, a San Francisco-based software development company offering a unified, customizable workspace for team collaboration and knowledge management, as described on LeadIQ and Notion's enterprise product page.",
+        "source_urls": [
+          "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38",
+          "https://www.notion.com/enterprise"
+        ],
+        "kind": "fact"
+      },
+      "description": {
+        "text": "Notion is a software development company headquartered in San Francisco that provides a unified, highly customizable workspace consolidating planning, team knowledge, notes, workflows, and collaboration into one platform.",
+        "source_urls": [
+          "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38"
+        ],
+        "kind": "fact"
+      },
+      "industry": {
+        "text": "Notion operates in the software development industry, specifically in workspace productivity and collaboration software.",
+        "source_urls": [
+          "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38"
+        ],
+        "kind": "fact"
+      },
+      "products_services": [
+        {
+          "text": "Notion offers an all-in-one customizable workspace platform where teams can manage project roadmaps, wikis, meeting notes, workflows, and use integrated AI tools for writing, brainstorming, code, search, and workflow automation.",
+          "source_urls": [
+            "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38",
+            "https://www.notion.com/enterprise"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "customer_segments": [
+        {
+          "text": "Notion primarily targets enterprise customers including departments such as product, HR, marketing, and IT, with usage by 98% of Forbes Cloud 100 companies and 62% of Fortune 100 companies.",
+          "source_urls": [
+            "https://www.notion.com/enterprise"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "geographic_presence": [
+        {
+          "text": "Notion is based in San Francisco, California, United States, with a global enterprise customer base.",
+          "source_urls": [
+            "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "business_model": null,
+      "pricing": null,
+      "funding": {
+        "text": "Notion has raised approximately $418 million in total funding across 9 rounds, with the latest Series D round in September 2021 raising $275 million at a $10 billion valuation.",
+        "source_urls": [
+          "https://tracxn.com/d/companies/notion/__LQ8wyN9zLT-OwulhqbMYvw0Ayznneiugbu_OaKuGD4U",
+          "https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html"
+        ],
+        "kind": "fact"
+      },
+      "recent_developments": [
+        {
+          "text": "In September 2026, Notion acquired the Indian startup Automate.io to accelerate product expansion and enhance integration capabilities with over 200 services.",
+          "source_urls": [
+            "https://finance.yahoo.com/news/notion-acquires-indias-automate-io-130516046.html"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "In 2025, Notion launched an AI agent product and crossed $500 million in annual revenue, reflecting significant growth and adoption of AI-driven workplace productivity features.",
+          "source_urls": [
+            "https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "positioning_usp": {
+        "text": "Notion positions itself as a customizable, all-in-one AI-powered workspace that integrates team knowledge, workflows, and collaboration with enterprise-grade security, governance, and integration capabilities, trusted by a vast majority of Forbes Cloud 100 and Fortune 100 companies.",
+        "source_urls": [
+          "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38",
+          "https://www.notion.com/enterprise"
+        ],
+        "kind": "fact"
+      }
+    },
+    "competitors": [
+      {
+        "name": "Airtable",
+        "website": "https://airtable.com",
+        "relation": "direct",
+        "description": {
+          "text": "Airtable offers a cloud collaboration service blending spreadsheet simplicity with database power, serving teams needing flexible project management and workflow automation.",
+          "source_urls": [
+            "https://www.cbinsights.com/company/notion-labs/alternatives-competitors",
+            "https://rocketreach.co/notion-one-competitors_b5c9ebfbf42e3110"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "Airtable provides customizable tables, views, and automation features to manage workflows, projects, and team collaboration.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/notion-labs/alternatives-competitors"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "Airtable targets both SMBs and enterprises requiring flexible and scalable project and data management solutions.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/notion-labs/alternatives-competitors"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": null
+      },
+      {
+        "name": "Asana",
+        "website": "https://asana.com",
+        "relation": "direct",
+        "description": {
+          "text": "Asana provides work management software focusing on task and project tracking to help teams organize, track, and manage work with ease across various industries.",
+          "source_urls": [
+            "https://rocketreach.co/notion-ai-competitors_b58ac3d5f69064a2",
+            "https://rocketreach.co/notion-one-competitors_b5c9ebfbf42e3110"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "Asana offers task management, timeline views, automation, and integration with multiple tools for effective team collaboration and workflow management.",
+            "source_urls": [
+              "https://rocketreach.co/notion-one-competitors_b5c9ebfbf42e3110"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "Asana targets primarily enterprises and mid-sized companies needing robust project and work management solutions.",
+            "source_urls": [
+              "https://rocketreach.co/notion-ai-competitors_b58ac3d5f69064a2"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": null
+      },
+      {
+        "name": "ClickUp",
+        "website": "https://clickup.com",
+        "relation": "direct",
+        "description": {
+          "text": "ClickUp is a productivity platform offering task, document, goal, and chat management to unify workplace collaboration and project management.",
+          "source_urls": [
+            "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38",
+            "https://slite.com/learn/best-notion-alternatives"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "ClickUp provides flexible project management features including tasks, docs, goals, and automation tools to support team productivity and collaboration.",
+            "source_urls": [
+              "https://slite.com/learn/best-notion-alternatives"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "ClickUp targets teams and enterprises looking for an all-in-one productivity and project management solution.",
+            "source_urls": [
+              "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": null
+      },
+      {
+        "name": "Coda",
+        "website": "https://coda.io",
+        "relation": "direct",
+        "description": {
+          "text": "Coda combines documents, spreadsheets, and apps into a single platform designed to streamline team workflows and collaboration with advanced customization.",
+          "source_urls": [
+            "https://www.cbinsights.com/company/notion-labs/alternatives-competitors",
+            "https://slite.com/learn/best-notion-alternatives"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "Coda offers doc-spreadsheet blends, easy app building, workflow automation, and integrations for enterprise teams needing flexible collaboration tools.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/notion-labs/alternatives-competitors"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "Coda targets enterprise customers and teams seeking customizable and scalable productivity tools.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/notion-labs/alternatives-competitors"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": null
+      },
+      {
+        "name": "monday.com",
+        "website": "https://monday.com",
+        "relation": "direct",
+        "description": {
+          "text": "monday.com is a cloud-based Work OS that enables teams to run projects and workflows with flexibility, customization, and automation to improve productivity.",
+          "source_urls": [
+            "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38",
+            "https://rocketreach.co/notion-one-competitors_b5c9ebfbf42e3110"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "monday.com offers project boards, workflow automation, time tracking, and numerous integrations for team collaboration and productivity.",
+            "source_urls": [
+              "https://rocketreach.co/notion-one-competitors_b5c9ebfbf42e3110"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "monday.com targets enterprises and teams looking for scalable work management and collaboration solutions.",
+            "source_urls": [
+              "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": null
+      }
+    ],
+    "competitor_shortfall_reason": null,
+    "industry_context": [
+      {
+        "text": "The global business productivity software market size was approximately $110 billion in 2026 and is projected to reach nearly $196 billion by 2031, growing at a CAGR of about 12.1%.",
+        "source_urls": [
+          "https://www.mordorintelligence.com/industry-reports/global-business-productivity-software-market"
+        ],
+        "kind": "fact"
+      },
+      {
+        "text": "The team collaboration software market was valued around $27.89 billion in 2025 and forecasted to grow to $31.62 billion in 2026, with projections of $68.20 billion by 2034 at a CAGR of 10.1%.",
+        "source_urls": [
+          "https://www.fortunebusinessinsights.com/industry-reports/team-collaboration-software-market-101327"
+        ],
+        "kind": "fact"
+      },
+      {
+        "text": "The global collaboration software market has been growing steadily with an estimated revenue of $9.49 billion in 2026, up from $5.8 billion in 2022, reflecting increased adoption of cloud-based productivity and collaboration tools.",
+        "source_urls": [
+          "https://scoop.market.us/collaboration-software-statistics"
+        ],
+        "kind": "fact"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://leadiq.com/c/notion/5deeb38f9ba577ddcc970c38",
+      "title": "Notion Company Overview, Contact Details & Competitors | LeadIQ",
+      "excerpt": "![LeadIQ logo](/_assets/logo.DuCvgQ6q.svg)\n![Insights icon](/_assets/insights.BXfdjR-b.svg)\n![Buildings icon](/_assets/similar.DJLfi8zh.svg)\n![Gear icon](/_assets/tech.wuVjZdnG.svg)\n![Envelope icon](/_assets/email.fZC817ym.svg)\n![Chat bubbled icon](/_assets/faq.Dx15TOQQ.svg)\n\n## Insights\n\n**Enterprise scale** Notion operates with 5001-10000 employees and generates substantial revenue, indicating a large enterprise footprint and potential for upsell to advanced collaboration, governance, and security features suitable for enterprise-wide deployments.\n\n**All-in-one appeal** As a versatile all-in-one workspace that consolidates product roadmaps, wikis, meeting notes and workflows, Notion presents opportunities to upsell teams into broader use across departments such as product, HR, marketing and IT.\n\n**Tech stack fit** Notion already leverages a breadth of tools (MongoDB, Intercom, New Relic, Marketo, Greenhouse, Asana) suggesting receptivity to integrations and automation; sales motions can emphasize seamless data flows and integration capabilities with customers' existing stacks.\n\n**High growth signals** With revenue in the high billions and a substantial funding round, Notion is in a growth phase with budget for expansion, migrations, and enterprise features, presenting timing for expansion selling cycles and premium support offerings.\n\n**Competitive landscape** Notion sits among strong productivity and collaboration rivals; targeting enterprises already evaluating or using similar platforms (Asana, monday.com, Trello, Airtable) offers a clear path for differentiation through deeper customization, security controls, and centralized knowledge management.\n\n## Similar companies to Notion\n\n![Trello logo](https://image-service.leadiq.com/companylogo?linkedinId=3833064)\n\n### [Trello](/c/trello/5a1d98ec2300005400878643)\n\n![Employees](/_assets/employees.B3ZMbAOv.svg)\n![](/_assets/vseparator.BFuKAh4L.svg)\n![Revenue](/_assets/revenue.DjNUzFEb.svg)\n![Wrike logo](https://image-service.leadiq.com/companylogo?linkedinId=612239)\n\n### [Wrike](/c/wrike/5a1d82c124000024005d7a22)\n\n![Employees](/_assets/employees.B3ZMbAOv.svg)\n![](/_assets/vseparator.BFuKAh4L.svg)\n![Revenue](/_assets/revenue.DjNUzFEb.svg)\n![ClickUp logo](https://image-service.leadiq.com/companylogo?linkedinId=12949663)\n\n### [ClickUp](/c/clickup/5a1dac4e2300005a00a18671)\n\n![Employees](/_assets/employees.B3ZMbAOv.svg)\n![](/_assets/vseparator.BFuKAh4L.svg)\n![Revenue](/_assets/revenue.DjNUzFEb.svg)\n![Airtable logo](https://image-service.leadiq.com/companylogo?linkedinId=3991822)\n\n### [Airtable](/c/airtable/5a1d9d7123000053008d49c1)\n\n![Employees](/_assets/employees.B3ZMbAOv.svg)\n![](/_assets/vseparator.BFuKAh4L.svg)\n![Revenue](/_assets/revenue.DjNUzFEb.svg)\n![Coda logo](https://image-service.leadiq.com/companylogo?linkedinId=18274722)\n\n### [Coda](/c/coda/5a1d9d232300005a008d0081)\n\n![Employees](/_assets/employees.B3ZMbAOv.svg)\n![](/_assets/vseparator.BFuKAh4L.svg)\n![Revenue](/_assets/revenue.DjNUzFEb.svg)",
+      "retrieved_by": "extract"
+    },
+    {
+      "url": "https://leadiq.com/c/notion/5a1d9d042300005b008cdb02",
+      "title": "Notion Company Overview, Contact Details & Competitors | LeadIQ",
+      "excerpt": "```\nNotion is a United States-based company that operates in the IT services and IT consulting industry. The company employs between 11 and 50 people. Its technology stack includes Salesforce Billing, Salesforce, Visual Studio Code, Bash, Rust, Objective-C, inSided, and Discord. Notion reports annual revenue in the range of $25 million to $50 million. Its website is \n```\n\nLinkedIn logo\n\n## Section iconCompany Overview\n\nSection icon\n\n## Section iconFunding & Financials\n\nSection icon [...] LeadIQ logo\nInsights icon\nBuildings icon\nGear icon\nEnvelope icon\nChat bubbled icon\n\n## Insights\n\nGrowth Potential Notion is a small IT services and consulting firm with a revenue range of 25M-50M and a lean team of 11-50 employees, indicating an opportunity to upsell scalable solutions and enterprise-grade offerings that support growing mid-market clients. [...] Competitive Positioning Notion operates in a competitive segment with peers like Airtable, ClickUp, Coda, and Trello; this signals an opportunity to position specialized modules such as custom integrations, security hardening, or tailored project management solutions.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://leadiq.com/c/notion/5a1dc9ee2300005200cee8d7",
+      "title": "Notion Capital Company Overview, Contact Details & Competitors | LeadIQ",
+      "excerpt": "Notion Capital is a London-based venture capital and private equity firm focused on European software-as-a-service and cloud companies. It emphasizes long-term involvement with founders and offers a value-add platform to support growth beyond initial milestones. Based in England, the firm positions itself as a mid-sized participant in the European tech ecosystem. It targets founders building SaaS and cloud solutions across Europe seeking strategic guidance and operational support. The firm's [...] LinkedIn logo\n\n## Section iconCompany Overview\n\nWebsite\n:   notioncapital.com\n\nStock Symbol\n:   0083.KL\n\nNAICS Code\n:   52391 - Miscellaneous Intermediation\n\nFounded\n:   2009\n\nEmployees\n:   51-200\n\n## Section iconMedia & News\n\n Media icon\n\n  ### Notion Capital invested into Twin1 $20M in Seed on Aug 20th '26.\n\n  Aug 20, 2026 | legaltechnology.com\n Media icon\n\n  ### Notion Capital invested into Flip GmbH $25M in funding round on Aug 19th '26.\n\n  Aug 19, 2026 | techfundingnews.com\n Media icon [...] LeadIQ logo\n\nLearn more at LeadIQ.com\n\n## Insights\n\nActive European SaaS Focus Notion Capital specializes in European SaaS and Cloud investments, presenting a clear target for sales outreach to S",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://leadiq.com/c/notion-capital/5a1dc9ee2300005200cee8d7",
+      "title": "Notion Capital Company Overview, Contact Details & Competitors | LeadIQ",
+      "excerpt": "Notion Capital is a London-based venture capital and private equity firm focused on European software-as-a-service and cloud companies. It emphasizes long-term involvement with founders and offers a value-add platform to support growth beyond initial milestones. Based in England, the firm positions itself as a mid-sized participant in the European tech ecosystem. It targets founders building SaaS and cloud solutions across Europe seeking strategic guidance and operational support. The firm's [...] LinkedIn logo\n\n## Section iconCompany Overview\n\nWebsite\n:   notioncapital.com\n\nStock Symbol\n:   0083.KL\n\nNAICS Code\n:   52391 - Miscellaneous Intermediation\n\nFounded\n:   2009\n\nEmployees\n:   51-200\n\n## Section iconMedia & News\n\n Media icon\n\n  ### Notion Capital invested into Twin1 $20M in Seed on Aug 20th '26.\n\n  Aug 20, 2026 | legaltechnology.com\n Media icon\n\n  ### Notion Capital invested into Flip GmbH $25M in funding round on Aug 19th '26.\n\n  Aug 19, 2026 | techfundingnews.com\n Media icon [...] LeadIQ logo\n\nLearn more at LeadIQ.com\n\n## Insights\n\nActive European SaaS Focus Notion Capital specializes in European SaaS and Cloud investments, presenting a clear target for sales outreach to S",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://leadiq.com/c/fresh-notion-group/60134321881cc9057fe39982",
+      "title": "Fresh Notion Group Company Overview, Contact Details & Competitors | LeadIQ",
+      "excerpt": "Fresh Notion Group operates in the business consulting and services sector, offering accounting, finance, marketing, and communications support to both public and private companies across a wide range of industries. Its services are designed to meet immediate needs while also aligning with longer-term objectives, through flexible arrangements that can range from project-based assistance to fractional leadership. The firm emphasizes a partnership approach, aiming to tailor its solutions to fit [...] Based in Houston, Texas, the company serves organizations seeking practical, adaptable guidance in finance and related areas. With a focus on small to mid-sized professional teams, Fresh Notion Group positions itself as a versatile resource that helps business leaders address current challenges and plan for sustained growth within a broad consulting landscape.\n```",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://leadiq.com/c/notion/5a1d8a922400002400644727/employee-directory",
+      "title": "Notion Employee Directory, Headcount & Staff | LeadIQ",
+      "excerpt": "Notion offers a smart monitoring system for homes and properties, combining a multifunctional sensor with a mobile app to enable proactive oversight of spaces and valuables. The system is designed to reduce risk and support insurance processes, with the aim of becoming a requirement for insurance and collaborating with insurers and service providers to drive adoption, education, engagement, claims reduction, and product customization. The company is based in Denver, Colorado, operating with a [...] operating with a small team within Pepper IoT. Notion became part of Pepper IoT, with its monitoring solution added to Pepper's offerings in December 2022. Pepper has continued to expand the platform, including the launch of an affordable security feature in November 2023.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.capterra.com/p/186596/Notion",
+      "title": "Notion Software Pricing, Alternatives & More 2026 | Capterra",
+      "excerpt": "Notion offers flexible project planning with customizable calendars, Kanban boards, and templates, letting you organize tasks, set deadlines, and collaborate in real time. Reviewers appreciate its adaptability, visual scheduling, and integration with Google Calendar, though some want more advanced analytics.\n\nPre-designed project plans that can be customized\n\nMonitor the progress of projects from start to finish\n\nCreate, manage, or update project workflows. [...] ### What customer support options does Notion offer, and how do users rate the experience?\n\nNotion offers email/help desk, FAQ/forum, knowledge base, phone support, 24/7 live representative assistance, and chat. Users often value the tutorials, documentation, community resources, and responsive help, but experiences vary: some report slow or unresolved responses, especially for technical bugs, billing concerns, and urgent issues.\n\nAnswer based on 72 reviews\n\nSecurity [...] Notion gives you customizable task lists, Kanban boards, reminders, and collaboration tools. Reviewers appreciate the flexibility to assign, track, and organize tasks, but some mention the lack of automation and native calendar integration compared to de",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.notion.com/enterprise",
+      "title": "Notion for Enterprise",
+      "excerpt": "Notion for Enterprise\n\n# Knowledge and work. Connected.\n\nOne secure AI workspace where enterprise teams plan, collaborate, and build faster together.\n\n[Request a demo](/contact-sales)\n\n![Illustration](https://images.ctfassets.net/spoqsaf9291f/6iU0Em3MVOpnFf0tQKUfka/d016c5f144512e22188ffece4420c05a/enterprise-hero.png)\n\nTrusted by 98% of the Forbes Cloud 100\n\n![OpenAI](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2FjWkCPMAAj0Av69704DQoB%2F84499b606028b276e0bf94c238f07097%2FOpenAI-black-wordmark-cropped.png&w=3840&q=75)![MatchGroup](https://images.ctfassets.net/spoqsaf9291f/502ApiNcRHgIwrDU8XRYTQ/497492503acb3fa21bbd9dd1aec193c3/Figma-logo-color.svg)![Figma](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F2Z03v7BH2brwtBG2qdA5dp%2Fd6cd228d2f7b6048edcec9f4d5bcce3c%2Fmatch.png&w=1080&q=75)![Vercel](https://images.ctfassets.net/spoqsaf9291f/15en0a60cYTRxNO1QlHbdg/f09657a6b8287f1db0e628a048267e2c/vercel-logotype-light.svg)![Ramp](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F4eiEZBWL5gEClwB1IHi18I%2Fb9b86479965977121ceabd01f45567a7%2Framp.png&w=3840&q=75)![Volvo](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F4xtSoCGKxiZcTwsYPlBB5h%2F0fb7d4155e89ef5a852936099e014313%2Fvolvo.png&w=1920&q=75)\n\nCompany knowledge\n\nOne home that\u2019s organized, searchable, and accurate.\n\nEnterprise search\n\nInstantly surface answers across Notion and connected apps.\n\nIntegrated projects\n\nPlan tasks, track progress, and align teams.\n\nWorkflows & connections\n\nAutomate any process and integrate your tools.\n\n![wip-aifw-company-home](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F4YbEemGbTfMzNRSG6Gkuu2%2Fdd819efa5f66dee6f9a76589531688f6%2Fimage.png&w=3840&q=75)\n\nwip-aifw-company-home\n\n![Enterprise Search](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F5DugsGNbdvoqbLCMb4fhF3%2Fc917fb223ad6ec3b774cc90dab46772d%2Fimage.png&w=3840&q=75)\n\nEnterprise Search\n\n### #1\n\nknowledge base and AI writing assistant (G2)\n\n### 98%\n\nof Forbes Cloud 100 teams use Notion\n\n### 62%\n\nof Fortune 100 companies use Notion\n\n## All-in-one AI, right where you work.\n\n### AI with all the right context\n\nNot just another generic AI tool\u2014it\u2019s AI powered by your team\u2019s knowledge and workflows.\n\n![Acme Inc company wiki](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F30ZLPL75fgslrbssC5mmcV%2Fa081c85724911149906f35a68f7d9444%2Fimage.png&w=3840&q=75)\n\n### One AI tool for everything\n\nBrainstorm, write, code, search, and automate workflows, all in Notion. No need for multiple AI point solutions.\n\n![Acme Inc company wiki](/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F5hOH3Tz8lCQktRpZt9dm2b%2F550e5c9a88eb034eac146afa70396c8b%2Flist.png&w=3840&q=75)\n\n### Fully integrated in your daily work\n\nNo app jumping or context-switching\u2014access AI directly where you plan, build, track, and collaborate.\n\n![Acme Inc company wiki](/_next/image?url=https%3A%2F%2Fimages.",
+      "retrieved_by": "extract"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/notion-acquires-indias-automate-io-130516046.html",
+      "title": "Notion acquires India's Automate.io in push to accelerate product expansion",
+      "excerpt": "7. Insurance \n      1. Find Car Insurance\n      2. Types of Car Insurance\n      3. Car Insurance Discounts\n      4. Find Life Insurance\n   8. Taxes \n      1. How to File\n      2. Refund Status\n      3. Tax Extension\n      4. Child Tax Credit\n   9. Investing \n      1. Investing Basics\n      2. Real Estate Investing\n      3. Retirement Basics\n   10. Calculators\n6. 1. Daily Shows\n   2. The 8:30\n   3. Sozzi Unleashed\n   4. The Daily Wolf\n   5. Market Hang\n   6. In the Loop\n   7. Weekly Shows [...] 3 min read\n\nNotion said on Wednesday it has acquired Automate.io, an Indian startup that builds connectivity and integrations with over 200 services, as the workplace productivity startup looks to accelerate its product expansion to become more compelling for tens of millions of individuals and businesses that are increasingly moving to digital collaborative tools. [...] 5. Futures & Derivatives\n   2. Originals\n   3. Newsletters\n   4. Economy & Policy \n      1. Earnings\n      2. Oil & Gas\n      3. Strait of Hormuz\n      4. Tariffs\n      5. Clean Energy\n   5. Tech \n      1. Aerospace & Defense\n      2. Enterprise Cloud\n   6. Exchange-Traded Funds\n4. Research & Tools\n   1. Calendars \n      1. E",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/notion/__LQ8wyN9zLT-OwulhqbMYvw0Ayznneiugbu_OaKuGD4U",
+      "title": "Notion - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "excerpt": "Notion has raised a total funding of $418M over 9 rounds. Its first funding round was on 2013. Its latest funding round was a Series D round on Sep 28, 2021 for $275M. 3 investors participated in its latest round.  Notion has 34 institutional investors and 8 angel investors.\n\nlock [...] lock\n\n| Date of Funding | Funding Amount | Round Name | Post-Money Valuation | Revenue Multiple | Lead Investors | Other Investors |\n ---  ---  --- \n| Sep 28, 2021 | $275M | Series D | $10B  Coatue, Sequoia Capital | Base10 Partners |\n| Mar 30, 2020 | $50M | Series C | $2B  Index Ventures \n| Jul 02, 2019 | $18.2M | Angel | $800M  Daniel Adkins, Aydin Senkut, Ram Shriram, Josh Kopelman, Lashy Groom, Elad Gil \n\nlock\n\n## Notion's founders and board of directors\n\n### Notion's employee count trend [...] | 2nd | Logo for Notion  Notion 2013, San Francisco  (United States), Series D | Developer of an AI-powered workspace for team collaboration and productivity | $418M | Section Partners, Sherpalo Ventures  & 40 others | 83/100 |\n| 3rd | Logo for Anaplan  Anaplan 2006, San Francisco  (United States), Acquired | Provider of cloud-based platform for scenario planning, analysis, and reporting | $300M | Premji ",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/notion/__NxlIs2OhaWtTCgksG49N1p3dTLGwqL65oRk3P-NKd8U",
+      "title": "Notion - 2026 Company Profile, Team & Funding - Tracxn",
+      "excerpt": "| Legal Entity Name | Date of Incorporation | Revenue | Latest Employee Count | Documents |\n ---  --- \n| Notion Data, Inc. CIN: 473384815 , United States, Active |   - \n\nPDF Illustration Image\n\n## Notion's funding and investors\n\nNotion has raised a total funding of $3.48M over 2 rounds. Its first funding round was on Sep 09, 2015. Its latest funding round was a Series A round on Apr 07, 2016 for  $\\\\\\\\\\. 3 investors participated in its latest round.  Notion has 4 institutional investors. [...] | Date of Funding | Funding Amount | Round Name | Post-Money Valuation | Revenue Multiple | Lead Investors | Other Investors |\n ---  ---  --- \n| Apr 07, 2016 | 4003646 | Series A | 7159809 | 8369695 | 1523991 | 7065620 |\n| Sep 09, 2015 | 8131000 | Seed | 4586616 | 5904610 | Portland Seed Fund | 1526075 |\n\nlock\n\n## Notion's founders and board of directors\n\nchrome_extension_cta_illustration\n\n## Notion's Investments and acquisitions\n\n## Reports related to Notion [...] An image depicting US FinTech Semi Annual Funding Report\n\nUS FinTech Semi Annual Funding Report\n\n## News related to Notion\n\nlock\n\n## FAQs about Notion\n\nAccel Partners\nPartech\nIN-Q-TEL - US\nFujitsu\nTenity\nStanford",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://startupintros.com/orgs/notion",
+      "title": "Notion: Funding, Team & Investors | Startup Intros",
+      "excerpt": "## Frequently Asked Questions\n\nWho founded Notion?\n\nNotion was founded in 2013 by Simon Last (Founder) and Ivan Zhao (Founder).\n\nHow much funding has Notion raised?\n\nNotion has raised $340.2M in total across 5 funding rounds.\n\nWhat is Notion's valuation?\n\nNotion is valued at approximately $10.0B.\n\nWho are Notion's investors? [...] Notion has raised $340.2M across 5 funding rounds. Most recently, it raised $275.0M Series C in October 2021 at a valuation of approximately $10.0B.\n\nRaised\n\n$340.2M\n\n5 funding rounds\n\nValuation\n\n$10.0B\n\nLatest reported\n\nInvestments\n\n14\n\n12 companies\n\n### Investments Made [...] Notion's investors include Coatue, Shine Capital, Accel, Craft Ventures, Mischief Venture Capital, Sequoia Capital, Rudra Peram, Simon Holstein, William Hockey, Bossa Invest, Goldman Sachs, ICONIQ Growth.\n\n## Leadership Team\n\n12 people\n\nKey people at Notion.\n\nAda Draginda\n\nAda Draginda\n\nData EngineerJamie Quint\n\nJamie Quint\n\nHead of GrowthMolly Mielke\n\nMolly Mielke\n\nMarketingRH\n\nRachel Hepworth\n\nCMORama Katkar\n\nRama Katkar\n\nCFO\n\nBen Lang\n\nBen Lang\n\nHead of Community\n\nSimon Last\n\nSimon Last",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://forgeglobal.com/notion_ipo",
+      "title": "Notion IPO Timeline and Financing Details - Forge",
+      "excerpt": "The Notion IPO price does not exist at this time, as Notion is still a private company and has not yet conducted an IPO. To explore secondary market data and access private market pricing details and data that may be related to Notion, register for Forge today.\n\n### When was Notion founded?\n\nNotion was founded in 2012.\n\n### What is Notion funding to date?\n\nNotion has raised $344.09M to date.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html",
+      "title": "Notion launches AI agent as it crosses $500 million in annual revenue",
+      "excerpt": "But unlike most startups that have boomed with the rise of generative AI, Notion hasn't raised outside capital in a long time. Its most recent fundraising round came in 2021, when the big driver for cloud-based collaboration software was the Covid pandemic and remote work. In October of that year, Notion raised $275 million at a $10 billion valuation.\n\nKothari says the company has more cash on hand than the $330 million it's raised to date. [...] Weeks after Notion's big financing round in 2021, Microsoft announced Loop, an app for working on documents. The product, which resembles Notion, became available to organizations with Microsoft 365 productivity software subscriptions in 2023.\n\nMicrosoft is also pushing Copilot, an AI assistant that can spit out Word documents and Outlook emails. Google, meanwhile, offers the Gemini AI option for its Google Workspace applications. [...] Notion was founded in 2013, two years before OpenAI was created as a nonprofit AI lab. The company, which now has about 1,000 employees, launched the first version of its product in 2016 and says it has over 100 million users.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.cbinsights.com/company/notion-labs/alternatives-competitors",
+      "title": "Top Notion Alternatives, Competitors",
+      "excerpt": "Technology Vendors\n Recent Research\n Newsletter\n Media Support\n Login\n\nCB Insights\n\nNotion company logo\n\n# Notion\n\nnotion.com\n\n## Notion's alternatives and competitors\n\nSee how Notioncompares to similar products. Notion's top competitors include Airtable, Craft Agents, and Scribe.\n\nAirtable Logo\n\nAirtable\n\nAnalyst Briefing Submitted [...] Evernote\n\n  EverNote provides a note management application. The application captures information in a variety of forms, including photos, clips of webpages, audio, note and search\u2026\n\n  Notion vs. Evernote\n\n  View more in-depth data on:\n\n  + Competitors\n  + Products\n  + Customer References and more\n\n  Compare Notion and Evernote\n\nNew call-to-action\n\n### Top10Notioncompetitors\n\n Airtable\n Craft Agents\n Scribe\n Penguin Ai\n Smartsheet\n Coda\n Beena\n Anytype\n Promptora AI\n Evernote [...] Craft Agents provides productivity software that includes a productivity app integrating notes, tasks, and document creation, with calendar integration, whiteboards, an\u2026\n\n  Notion vs. Craft Agents\n\n  View more in-depth data on:\n\n  + Competitors\n  + Products\n  + Customer References and more\n\n  Compare Notion and Craft Agents\n Scribe Logo\n\n  Scribe",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://rocketreach.co/notion-one-competitors_b5c9ebfbf42e3110",
+      "title": "[Notion One Competitors](/notion-one-competitors_b5c9ebfbf42e3110 \"Notion One Competitors\")",
+      "excerpt": "RocketReach logo\nstars 1\nstars 2\nstars 3\n\n## Company Information\n\n## Email Format\n\n## Management\n\n## Technology Stack\n\n## Competitors\n\nNotion One\n\n# Notion One Competitors\n\nView Notion One's top competitors like Airtable, Asana, and Belle Muse Agency.\n\nmonday.com\nAsana\nClickUp\n\n## Top Notion One Employees\n\nNotion One Employee Judi Thomas's profile photo\n\n### Judi Thomas\n\n#### Marketing Director at Notion One\n\n#### Related Companies [...] Development Research Partners\nCodeBlu\nDouble Diamond Solutions\nEnTech IT Solutions\nD2 Demand Solutions, Inc.\nTERRASCIENCES\nInternet Media Consultants\nDecision Display\nLAND INFO Worldwide Mapping, LLC\nFoundValue\nISYS Technologies, Inc.\nOrderStorm Inc.\nGatespace Networks Inc\nTangicloud Technologies\nNetgain Solutions, LLC\nFake Brains Software\nIP Architechs\nSensible Systems\nDKCC\nG2 Leader Summer 2026\nG2 Best Est ROI Mid-Market Summer 2026\nG2 Easiest Admin Mid-Market Summer 2026 [...] G2 Most Implementable Summer 2026\nG2 Best Results Mid-Market Summer 2026\nG2 Lead Capture Mid-Market Summer 2026\nInc Fastest Growing Private Companies 2026\nInc Best Workplace 2026\ng2crowd\nchromestore",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://rocketreach.co/notion-ai-competitors_b58ac3d5f69064a2",
+      "title": "Notion Ai Competitors | Companies like Notion Ai",
+      "excerpt": "stars 1\nstars 2\nstars 3\n\n ## Company Information\n ## Email Format\n ## Technology Stack\n ## Competitors\n\nView Notion Ai's top competitors like Airtable, Asana, and Belle Muse Agency.\n\nTel Aviv, IL\n\n$1B Revenue\n\n3.8K Employees\n\nAsana\n\nAsana [...] More than 170,000 organizations \u2014 including Accenture, Amazon, Anthropic, Morningstar, and Suzuki \u2014 run their most critical work on Asana.\nFor more information, visit www.asana.com. [...] San Diego, California, US\n\nPrivate\n\n$250M Revenue\n\n1.7K Employees\n\n#### Related Companies\n\nSitemate\n\nSitemate\n\n190\n\n$29.4m\n\nSoftware.com Pty Ltd\n\nSoftware.com Pty Ltd\n\n3\n\n$1m\n\nMoroku\n\nMoroku\n\n10\n\n$8m\n\nDovetail\n\nDovetail\n\n169\n\nShiftCare\n\nShiftCare\n\n93\n\n$16.8m\n\nEucalyptus\n\nEucalyptus\n\n920\n\n$40m\n\nNot Doppler\n\nNot Doppler\n\n21\n\n$592k\n\nKDDI Australia\n\nKDDI Australia\n\n18\n\n$40b\n\nBuiltWith\n\nBuiltWith\n\n4\n\n$31m\n\nAvalias\n\nAvalias\n\n10\n\n$4m\n\nisubscribe Pty Ltd\n\nisubscribe Pty Ltd\n\n1\n\n$19.7m\n\niion\n\niion\n\n71",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/notion/__mycVQlAIepSfpKZUGMHIDv0OX9VLJnk5aL775y4lxkU",
+      "title": "Notion - 2026 Company Profile & Competitors - Tracxn",
+      "excerpt": "## Reports related to Notion\n\nAn image depicting Fashion Tech - Sector Report\n\nFashion Tech - Sector Report\n\n## FAQs about Notion\n\nAccel Partners\nPartech\nIN-Q-TEL - US\nFujitsu\nTenity\nStanford [...] | Rank | Company Details | Short Description | Total Funding | Investors | Tracxn Score |\n ---  ---  --- |\n| 1st | Logo for Notion  Notion Dunedin  (New Zealand), Unfunded | Online retailer of fashion products  - | 22/100 |\n| 2nd | Logo for SuchCrowd  SuchCrowd 2015, Christchurch  (New Zealand), Funding Raised | Crowdfunding platform for events  New Zealand Growth Capital Partners | 15/100 |\n\nLogo for Notion\nLogo for SuchCrowd\nlock\n\n## Notion's Investments and acquisitions",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://slite.com/learn/best-notion-alternatives",
+      "title": "The 10 Best Notion Alternatives 2026",
+      "excerpt": "Cost: If pricing is a primary concern, Basecamp offers a flat rate for unlimited users, while Asana provides competitive per-user pricing.\n Features: For those requiring more robust features, ClickUp and Coda offer extensive capabilities that can rival or even surpass Notion in certain areas, including advanced project management.\n Speed: If speed is an issue, Airtable and Asana are known for their performance, especially when handling larger datasets. [...] Sick of Notion\u2019s slow speed? There are alternatives to Notion for that.\n\nWant more features than Notion offers? There\u2019s a Notion alternative for that.\n\nWant a more solid project management architecture with advanced features like Kanban boards, Gantt charts, and calendar integration? There are definitely many Notion competitors vying to get your attention just for that.\n\n### Our criteria for evaluation [...] Obsidian allows you to link your notes and visualize those connections as an interactive web. It\u2019s like a mind map that evolves as you write. For researchers, writers, and anyone who thinks in terms of connections rather than just folders, it\u2019s truly a game changer.\n\nThat\u2019s where it competes with Notion the best - the indiv",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.xda-developers.com/tried-dozens-notion-alternatives-only-ones-worth-using",
+      "title": "I've tried dozens of Notion alternatives, these are the only ones worth using",
+      "excerpt": "Docmost is an open-source and self-hosted wiki and documentation platform that feels like a simplified version of Notion. It\u2019s primarily built for collaboration, but it works just as well for solo users. Docmost can run on your own server and also supports encryption, so your documents are completely under your control. It has a real-time editor where multiple people can edit the same page at once without overwriting each other, plus it has diagrams, tables, and even Mermaid and Excalidraw [...] Out of the box, it\u2019s quite minimalist, but probably also not what you\u2019re used to if you come from Notion. The slash command is different, the formatting options are different too, and the architecture overall might take some getting used to. Obsidian does have databases, namely Bases, and they\u2019re much easier to navigate than Notion\u2019s since you don\u2019t need to manually add any properties and just define the rules. [...] Anytype is a Notion alternative I\u2019ve covered extensively before. It\u2019s like working with a Notion clone, except it is offline-first and local-first. The layout is strikingly similar, which is no surprise considering the app was specifically created as a privacy-focused alternati",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://scoop.market.us/collaboration-software-statistics",
+      "title": "Collaboration Software Statistics and Facts (2026)",
+      "excerpt": "Google Cloud follows with a revenue of $4.6 billion, indicating its strong presence in the market with cloud-based productivity tools that foster collaboration and efficiency.\n Cisco\u2019s Applications Segment, contributing $1.34 billion in revenue, also plays a crucial role by offering a suite of collaboration tools that enhance communication and productivity in businesses. [...] The global collaboration software market has been on a trajectory of steady growth at a CAGR of 13.1%, as evidenced by its revenue figures.\n In 2022, the market was valued at $5.80 billion. By 2023, it experienced growth, reaching $6.56 billion, and continued to rise to $7.42 billion in 2024.\n The upward trend persisted through the years, with market revenues hitting $8.39 billion in 2025, $9.49 billion in 2026, and further climbing to $10.73 billion in 2027. [...] India, closely trailing with a revenue of $209.9 million, reflects its emerging role in the global collaboration software space.\n These figures illustrate the varied impact and adoption of collaboration software across major economies, indicating both developed and developing countries\u2019 reliance on these technologies for enhancing business operatio",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.mordorintelligence.com/industry-reports/global-business-productivity-software-market",
+      "title": "Business Productivity Software Market Size, Report & Share Analysis 2031",
+      "excerpt": "The business productivity software market size stood at USD 110.36 billion in 2026 and is projected to reach USD 195.56 billion by 2031, reflecting a 12.12% CAGR over the forecast period. Demand is accelerating as generative-AI capabilities become default features, hybrid-work compliance rules push organizations to modern collaboration suites, and consumption-based licensing unlocks upgrade cycles among small and medium enterprises (SMEs). Vendors that operate at hyperscale are embedding large [...] What is the current global size of the business productivity software market and how fast will it expand? \n\nThe market generated USD 110.36 billion in 2026 and is forecast to reach USD 195.56 billion by 2031, advancing at a 12.12% CAGR.\n\nWhich deployment model is growing fastest within business productivity suites? \n\nCloud-based deployments lead with 71.31% share in 2025 and are projected to grow at a 13.12% CAGR through 2031, outpacing on-premise alternatives. [...] Market Overview\n\n|  |  |\n --- |\n| Study Period | 2020 - 2031 |\n| Market Size (2026) | USD 110.36 Billion |\n| Market Size (2031) | USD 195.56 Billion |\n| Growth Rate (2026 - 2031) | 12.12 % |\n| Fastest Growing Market | Asia ",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.fortunebusinessinsights.com/industry-reports/team-collaboration-software-market-101327",
+      "title": "Team Collaboration Software Market Size | Global Report, 2034",
+      "excerpt": "The global team collaboration software market size was USD 27.89 billion in 2025. The market is projected to grow from USD 31.62 billion in 2026 to USD 68.20 billion by 2034 at a CAGR of 10.1% during the 2026-2034 period. North America dominated the global market with a share of 40.2% in 2025. [...] adopt collaboration tools to meet work from home needs. The U.S. market is expected to reach USD 8.58 billion by 2026. [...] Team Collaboration Software Market\n\nDownload Free sample to learn more about this report.\n\n## Team Collaboration Software Market Key Takeaways\n\ntrending up Global Market Size & Forecast\n\n 2025 Market Size: USD 27.89 billion\n 2026 Market Size: USD 31.62 billion\n 2034 Forecast Market Size: USD 68.20 billion\n CAGR: 10.1% from 2026\u20132034\n\nglobe Market Share",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.6sense.com/tech/productivity",
+      "title": "Best Productivity Software in 2026 | 6sense",
+      "excerpt": "Project Collaboration\n\nDocument Management\n\nTeam Collaboration\n\nCollaborative Calendars\n\nInstant Messaging And Chat\n\n## Top 5 Productivity technologies in 2026\n\nOver 2,286,865 companies\nare using Productivity tools. Slack with 25.92% market\nshare (592,832 customers), Microsoft Office 365 with 18.94% market\nshare (433,116 customers), Microsoft Excel with 10.69% market\nshare (244,355 customers).\n\nTechnology\n\nMarket Share (Est.)\n\ntooltip_info\n\nCustomers\n\ntooltip_info\n\n- Slack\n\n  25.92% [...] | Ranking | Technology | Customerstooltip_info | Market share(Est.)(%)tooltip_info |\n ---  --- |\n| 1 | Slack | 592,832 | 25.92 |\n| 2 | Microsoft Office 365 | 433,116 | 18.94 |\n| 3 | Microsoft Excel | 244,355 | 10.69 |\n| 4 | Google Docs | 197,655 | 8.64 |\n| 5 | JIRA Software | 187,105 | 8.18 |\n| 6 | Microsoft Word | 117,638 | 5.14 |\n| 7 | Microsoft Powerpoint | 81,860 | 3.58 |\n| 8 | Atlassian Confluence | 72,246 | 3.16 |\n| 9 | Quip | 72,166 | 3.16 |\n| 10 | Trello | 66,494 | 2.91 | [...] | 11 | Asana | 51,400 | 2.25 |\n| 12 | Inkscape | 39,649 | 1.73 |\n| 13 | monday.com | 34,032 | 1.49 |\n| 14 | Airtable | 30,190 | 1.32 |\n| 15 | Evernote | 15,041 | 0.66 |\n| 16 | Evernote Business | 14,163 | 0.62 |\n| 1",
+      "retrieved_by": "search"
+    }
+  ],
+  "usage": {
+    "agent_version": "researcher@3",
+    "model": "gpt-4.1-mini",
+    "input_tokens": 48381,
+    "output_tokens": 2370,
+    "total_tokens": 50751,
+    "tool_calls": 7,
+    "duration_ms": 31880
+  }
+}

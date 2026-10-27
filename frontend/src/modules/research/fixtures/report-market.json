@@ -1,0 +1,1095 @@
+{
+ "meta": {
+  "query": "Milk",
+  "company_name": "Fresh packaged milk in Kerala",
+  "generated_at": "2026-10-27T10:00:00+00:00",
+  "outcome": "succeeded",
+  "missing_sections": [],
+  "step_errors": {},
+  "agent_versions": {
+   "researcher": "market_researcher@2"
+  },
+  "usage": [
+   {
+    "step": "research",
+    "agent_version": "market_researcher@2",
+    "model": "gpt-4.1-mini",
+    "input_tokens": 31000,
+    "output_tokens": 3100,
+    "total_tokens": 34100,
+    "tool_calls": 12,
+    "duration_ms": 48000
+   },
+   {
+    "step": "validate",
+    "agent_version": "fact_checker@4",
+    "model": "gpt-4.1-mini",
+    "input_tokens": 26000,
+    "output_tokens": 2100,
+    "total_tokens": 28100,
+    "tool_calls": 0,
+    "duration_ms": 11000
+   },
+   {
+    "step": "analyse",
+    "agent_version": "market_analyst@4",
+    "model": "gpt-4.1",
+    "input_tokens": 4200,
+    "output_tokens": 1900,
+    "total_tokens": 6100,
+    "tool_calls": 0,
+    "duration_ms": 12000
+   },
+   {
+    "step": "strategise",
+    "agent_version": "market_strategist@1",
+    "model": "gpt-4.1",
+    "input_tokens": 2100,
+    "output_tokens": 1000,
+    "total_tokens": 3100,
+    "tool_calls": 0,
+    "duration_ms": 8000
+   },
+   {
+    "step": "write",
+    "agent_version": "report_writer@6",
+    "model": "gpt-4.1-mini",
+    "input_tokens": 3800,
+    "output_tokens": 600,
+    "total_tokens": 4400,
+    "tool_calls": 0,
+    "duration_ms": 5000
+   }
+  ],
+  "total_input_tokens": 67100,
+  "total_output_tokens": 8700,
+  "total_tokens": 75800,
+  "mode": "market",
+  "competitors_confirmed": false,
+  "missing_competitors": [],
+  "second_round": {
+   "gaps": [
+    "Coastline Milk: read its own website (https://coastline-milk.example); its prices per unit",
+    "Costs and margins: start-up costs and typical margins (only if public)",
+    "A current source (last 2 years) for: \"Milk subscriptions delivered to the door before 7 am are spreading in cities.\" — the only source is from 2019."
+   ],
+   "filled": 1,
+   "new_claims": 2,
+   "total_tokens": 12400,
+   "duration_ms": 38000,
+   "error": null
+  }
+ },
+ "executive_summary": "Kerala buys more packaged milk than it produces, and prices have kept rising, so demand is not the problem [1][3]. The hard part is supply: the state co-operative controls most village collection points [1] and sells the cheapest milk. The clearest opening is a premium or A2 brand in the cities, where that demand is growing fastest [5]. Margins and distributor terms are not public — check them before investing.",
+ "company_overview": {
+  "name": "Fresh packaged milk in Kerala",
+  "website": null,
+  "identity": {
+   "id": "C1",
+   "text": "Covers fresh packaged milk sold to households in Kerala; market size is Kerala-level, growth is India-wide.",
+   "kind": "fact",
+   "verdict": "supported",
+   "confidence": "high",
+   "refs": [
+    1
+   ],
+   "estimate": false,
+   "old_source_year": null
+  },
+  "facts": [
+   {
+    "label": "Market size",
+    "claims": [
+     {
+      "id": "C2",
+      "text": "Kerala's packaged milk sales were worth ₹6,800 crore in 2024 (Kerala-level).",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       1
+      ],
+      "estimate": false,
+      "old_source_year": null
+     },
+     {
+      "id": "C3",
+      "text": "IMARC estimates the Kerala dairy market (all dairy products) at ₹21,000 crore in 2025.",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       6
+      ],
+      "estimate": true,
+      "old_source_year": null
+     }
+    ]
+   },
+   {
+    "label": "Growth",
+    "claims": [
+     {
+      "id": "C4",
+      "text": "India's packaged milk market grew about 7% a year between 2020 and 2024 (India-wide).",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       2
+      ],
+      "estimate": false,
+      "old_source_year": null
+     },
+     {
+      "id": "C5",
+      "text": "The same report forecasts 8% yearly growth to 2030 (India-wide).",
+      "kind": "prediction",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       2
+      ],
+      "estimate": false,
+      "old_source_year": null
+     }
+    ]
+   },
+   {
+    "label": "Customers and demand",
+    "claims": [
+     {
+      "id": "C6",
+      "text": "About 80% of Kerala households buy packaged milk at least once a day.",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       1
+      ],
+      "estimate": false,
+      "old_source_year": null
+     },
+     {
+      "id": "C7",
+      "text": "Kerala produces less milk than it consumes and buys the gap from neighbouring states.",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       1
+      ],
+      "estimate": false,
+      "old_source_year": null
+     }
+    ]
+   },
+   {
+    "label": "Prices",
+    "claims": [
+     {
+      "id": "C8",
+      "text": "Toned milk sold for ₹52 per litre in Kochi in March 2025, up from ₹48 in 2023.",
+      "kind": "fact",
+      "verdict": "partially_supported",
+      "confidence": "high",
+      "refs": [
+       3
+      ],
+      "estimate": false,
+      "old_source_year": null
+     }
+    ]
+   },
+   {
+    "label": "Supply chain",
+    "claims": [
+     {
+      "id": "C9",
+      "text": "Most milk is collected through about 3,000 village co-operative societies.",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       1
+      ],
+      "estimate": false,
+      "old_source_year": null
+     }
+    ]
+   },
+   {
+    "label": "Licences and rules",
+    "claims": [
+     {
+      "id": "C10",
+      "text": "Every dairy processor needs a state food-safety licence and a pollution clearance.",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       4
+      ],
+      "estimate": false,
+      "old_source_year": null
+     }
+    ]
+   },
+   {
+    "label": "Entry barriers",
+    "claims": [
+     {
+      "id": "C11",
+      "text": "The state co-operative controls most village collection points.",
+      "kind": "fact",
+      "verdict": "supported",
+      "confidence": "high",
+      "refs": [
+       1
+      ],
+      "estimate": false,
+      "old_source_year": null
+     }
+    ]
+   }
+  ]
+ },
+ "industry_overview": {
+  "text": "Packaged milk keeps growing about 7% a year in India [2], and doorstep subscriptions are spreading in Kerala's cities [5].",
+  "claims": [
+   {
+    "id": "C31",
+    "text": "Demand for A2 and organic milk is growing fastest in Kochi and Thiruvananthapuram.",
+    "kind": "fact",
+    "verdict": "supported",
+    "confidence": "high",
+    "refs": [
+     5
+    ],
+    "estimate": false,
+    "old_source_year": null
+   },
+   {
+    "id": "C32",
+    "text": "Milk subscriptions delivered to the door before 7 am are spreading in cities.",
+    "kind": "fact",
+    "verdict": "supported",
+    "confidence": "high",
+    "refs": [
+     5
+    ],
+    "estimate": false,
+    "old_source_year": 2019
+   }
+  ]
+ },
+ "competitor_landscape": [
+  {
+   "name": "Periyar Dairy Co-op",
+   "website": "https://periyar-dairy.example",
+   "relation": "direct",
+   "facts": [
+    {
+     "label": "Description",
+     "claims": [
+      {
+       "id": "C12",
+       "text": "Periyar Dairy Co-op is the state's largest milk co-operative.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        7
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Offerings",
+     "claims": [
+      {
+       "id": "C13",
+       "text": "Toned, double-toned and full-cream milk, curd and ghee.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        7
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Pricing",
+     "claims": [
+      {
+       "id": "C14",
+       "text": "Toned milk at ₹52 per litre.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        7
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Target customers",
+     "claims": [
+      {
+       "id": "C15",
+       "text": "Households across all districts.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        7
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Positioning",
+     "claims": [
+      {
+       "id": "C16",
+       "text": "The default, lowest-price choice in most shops.",
+       "kind": "interpretation",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        7
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Malabar Farms",
+   "website": "https://malabar-farms.example",
+   "relation": "direct",
+   "facts": [
+    {
+     "label": "Description",
+     "claims": [
+      {
+       "id": "C17",
+       "text": "Malabar Farms is a private dairy selling in northern Kerala.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        8
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Offerings",
+     "claims": [
+      {
+       "id": "C18",
+       "text": "Full-cream milk and flavoured milk.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        8
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Pricing",
+     "claims": [
+      {
+       "id": "C19",
+       "text": "Full-cream milk at ₹62 per litre.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        8
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Target customers",
+     "claims": [
+      {
+       "id": "C20",
+       "text": "Households and cafes in Kozhikode and Kannur.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        8
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Positioning",
+     "claims": [
+      {
+       "id": "C21",
+       "text": "Positions itself on freshness and local farms.",
+       "kind": "interpretation",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        8
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GreenCow Organics",
+   "website": "https://greencow.example",
+   "relation": "direct",
+   "facts": [
+    {
+     "label": "Description",
+     "claims": [
+      {
+       "id": "C22",
+       "text": "GreenCow Organics sells certified organic A2 milk by subscription.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        9
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Offerings",
+     "claims": [
+      {
+       "id": "C23",
+       "text": "Organic A2 milk in glass bottles, delivered daily.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        9
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Pricing",
+     "claims": [
+      {
+       "id": "C24",
+       "text": "A2 milk at ₹110 per litre on a monthly plan.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        9
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Target customers",
+     "claims": [
+      {
+       "id": "C25",
+       "text": "Health-conscious families in Kochi.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        9
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Positioning",
+     "claims": [
+      {
+       "id": "C26",
+       "text": "Premium, subscription-only brand.",
+       "kind": "interpretation",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        9
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Coastline Milk",
+   "website": "https://coastline-milk.example",
+   "relation": "direct",
+   "facts": [
+    {
+     "label": "Description",
+     "claims": [
+      {
+       "id": "C27",
+       "text": "Coastline Milk brings packaged milk from Tamil Nadu into southern Kerala.",
+       "kind": "fact",
+       "verdict": "unsupported",
+       "confidence": "high",
+       "refs": [
+        10
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Offerings",
+     "claims": [
+      {
+       "id": "C28",
+       "text": "Toned milk and curd.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        10
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Target customers",
+     "claims": [
+      {
+       "id": "C29",
+       "text": "Shops in Thiruvananthapuram and Kollam.",
+       "kind": "fact",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        10
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    },
+    {
+     "label": "Positioning",
+     "claims": [
+      {
+       "id": "C30",
+       "text": "Competes on wide shop availability.",
+       "kind": "interpretation",
+       "verdict": "supported",
+       "confidence": "high",
+       "refs": [
+        10
+       ],
+       "estimate": false,
+       "old_source_year": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "competitive_comparison": [
+  {
+   "dimension": "Offer",
+   "cells": [
+    {
+     "company": "Periyar Dairy Co-op",
+     "value": "Toned, double-toned and full-cream milk, curd and ghee.",
+     "refs": [
+      7
+     ]
+    },
+    {
+     "company": "Malabar Farms",
+     "value": "Full-cream milk and flavoured milk.",
+     "refs": [
+      8
+     ]
+    },
+    {
+     "company": "GreenCow Organics",
+     "value": "Organic A2 milk in glass bottles, delivered daily.",
+     "refs": [
+      9
+     ]
+    },
+    {
+     "company": "Coastline Milk",
+     "value": "Toned milk and curd.",
+     "refs": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "dimension": "Price",
+   "cells": [
+    {
+     "company": "Periyar Dairy Co-op",
+     "value": "₹52 per litre (toned)",
+     "refs": [
+      7
+     ]
+    },
+    {
+     "company": "Malabar Farms",
+     "value": "₹62 per litre (full cream)",
+     "refs": [
+      8
+     ]
+    },
+    {
+     "company": "GreenCow Organics",
+     "value": "₹110 per litre (A2, monthly)",
+     "refs": [
+      9
+     ]
+    },
+    {
+     "company": "Coastline Milk",
+     "value": "Not publicly available",
+     "refs": []
+    }
+   ]
+  }
+ ],
+ "swot": {
+  "strengths": [],
+  "weaknesses": [],
+  "opportunities": [],
+  "threats": []
+ },
+ "market_trends": [
+  {
+   "id": "F6",
+   "text": "Doorstep subscriptions before 7 am are spreading in cities.",
+   "kind": "fact",
+   "claim_ids": [
+    "C32"
+   ],
+   "refs": [
+    5
+   ]
+  },
+  {
+   "id": "F7",
+   "text": "Packaged milk keeps growing about 7% a year nationally.",
+   "kind": "fact",
+   "claim_ids": [
+    "C4"
+   ],
+   "refs": [
+    2
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "F8",
+   "text": "A premium or A2 brand sold by subscription in Kochi.",
+   "kind": "interpretation",
+   "claim_ids": [
+    "C31",
+    "C32"
+   ],
+   "refs": [
+    5
+   ]
+  },
+  {
+   "id": "F9",
+   "text": "Supplying cafes and hotels, which buy in bulk.",
+   "kind": "interpretation",
+   "claim_ids": [
+    "C20"
+   ],
+   "refs": [
+    8
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "id": "F10",
+   "text": "A price war if the co-operative cuts prices.",
+   "kind": "interpretation",
+   "claim_ids": [
+    "C14"
+   ],
+   "refs": [
+    7
+   ]
+  },
+  {
+   "id": "F11",
+   "text": "Milk shortages in summer raise buying costs.",
+   "kind": "prediction",
+   "claim_ids": [
+    "C7"
+   ],
+   "refs": [
+    1
+   ]
+  }
+ ],
+ "recommendations": [
+  {
+   "priority": 1,
+   "title": "Start a premium A2 milk subscription in Kochi",
+   "rationale": "City demand for A2 and organic milk is growing fastest, and doorstep subscriptions are spreading. A small premium brand avoids competing head-on with the co-operative on price.",
+   "impact": "high",
+   "next_steps": [
+    "Find 10–20 A2 farms within 50 km of Kochi",
+    "Run a 3-month trial with 200 households",
+    "Price against the ₹110 premium benchmark"
+   ],
+   "risks_tradeoffs": [
+    "Small niche at first",
+    "Delivery costs before 7 am are high"
+   ],
+   "evidence_ids": [
+    "F2",
+    "F6"
+   ],
+   "refs": [
+    5
+   ],
+   "warning": null
+  },
+  {
+   "priority": 2,
+   "title": "Supply cafes and hotels in bulk",
+   "rationale": "Private dairies already sell to cafes, and bulk buyers care about steady supply more than the lowest price.",
+   "impact": "medium",
+   "next_steps": [
+    "List 30 cafes and hotels in one city",
+    "Offer a weekly delivery trial"
+   ],
+   "risks_tradeoffs": [
+    "Longer payment terms",
+    "Bigger buyers push for discounts"
+   ],
+   "evidence_ids": [
+    "F9"
+   ],
+   "refs": [
+    8
+   ],
+   "warning": null
+  }
+ ],
+ "next_steps": [
+  "Talk to 3 distributors in Kochi about margins.",
+  "Test demand for A2 milk with 20 households.",
+  "Get the licence cost and timeline in writing."
+ ],
+ "references": [
+  {
+   "ref": 1,
+   "url": "https://dairy-stats.example/kerala-2025",
+   "title": "Kerala dairy statistics 2025",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 2,
+   "url": "https://dairy-board.example/india-packaged-milk",
+   "title": "India packaged milk market report 2025",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 3,
+   "url": "https://kerala-news.example/milk-prices-2025",
+   "title": "Milk prices rise again in Kochi",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 4,
+   "url": "https://food-safety.example/dairy-licence",
+   "title": "Licences for dairy processors",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 5,
+   "url": "https://trade-press.example/a2-milk-cities",
+   "title": "A2 and organic milk demand in Indian cities",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 6,
+   "url": "https://www.imarcgroup.com/illustrative-kerala-dairy",
+   "title": "Kerala dairy market report (summary)",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 7,
+   "url": "https://periyar-dairy.example",
+   "title": "Periyar Dairy Co-op — home",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 8,
+   "url": "https://malabar-farms.example",
+   "title": "Malabar Farms — home",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 9,
+   "url": "https://greencow.example",
+   "title": "GreenCow Organics — home",
+   "retrieved_by": "search"
+  },
+  {
+   "ref": 10,
+   "url": "https://coastline-milk.example",
+   "title": "Coastline Milk — home",
+   "retrieved_by": "search"
+  }
+ ],
+ "validation": {
+  "claims_total": 32,
+  "supported": 30,
+  "partially_supported": 1,
+  "unsupported": 1,
+  "contradicted": 0,
+  "warnings": [
+   "Only 2 recommendation(s) had enough evidence (target: 3-7)."
+  ]
+ },
+ "key_figures": [
+  {
+   "label": "Kerala dairy market, all dairy (2025)",
+   "company": "Market",
+   "value": 21000.0,
+   "unit": "₹ crore",
+   "year": 2025,
+   "claim_ids": [
+    "C3"
+   ],
+   "refs": [
+    6
+   ],
+   "estimate": true
+  },
+  {
+   "label": "Price per litre",
+   "company": "Periyar Dairy Co-op",
+   "value": 52.0,
+   "unit": "₹ per litre",
+   "year": null,
+   "claim_ids": [
+    "C14"
+   ],
+   "refs": [
+    7
+   ],
+   "estimate": false
+  },
+  {
+   "label": "Price per litre",
+   "company": "Malabar Farms",
+   "value": 62.0,
+   "unit": "₹ per litre",
+   "year": null,
+   "claim_ids": [
+    "C19"
+   ],
+   "refs": [
+    8
+   ],
+   "estimate": false
+  },
+  {
+   "label": "Price per litre",
+   "company": "GreenCow Organics",
+   "value": 110.0,
+   "unit": "₹ per litre",
+   "year": null,
+   "claim_ids": [
+    "C24"
+   ],
+   "refs": [
+    9
+   ],
+   "estimate": false
+  }
+ ],
+ "market": {
+  "scope": {
+   "product": "Fresh packaged milk",
+   "region": "Kerala",
+   "customer_type": "households"
+  },
+  "forces": [
+   {
+    "force": "rivalry",
+    "rating": "medium",
+    "reason": "One large co-operative leads, but private and premium brands are growing.",
+    "claim_ids": [
+     "C12",
+     "C17"
+    ],
+    "refs": [
+     7,
+     8
+    ]
+   },
+   {
+    "force": "entry_barriers",
+    "rating": "high",
+    "reason": "The co-operative controls most village collection points, so new dairies must build their own supply.",
+    "claim_ids": [
+     "C11",
+     "C9"
+    ],
+    "refs": [
+     1
+    ]
+   },
+   {
+    "force": "supplier_power",
+    "rating": "medium",
+    "reason": "Kerala is short of milk and buys from other states, which keeps farm-gate prices firm.",
+    "claim_ids": [
+     "C7"
+    ],
+    "refs": [
+     1
+    ]
+   },
+   {
+    "force": "buyer_power",
+    "rating": "low",
+    "reason": "Households buy small amounts daily and prices have risen without demand falling.",
+    "claim_ids": [
+     "C6",
+     "C8"
+    ],
+    "refs": [
+     1,
+     3
+    ]
+   }
+  ],
+  "signals_for": [
+   {
+    "id": "F1",
+    "text": "Kerala consumes more milk than it produces, so demand is already there.",
+    "kind": "fact",
+    "claim_ids": [
+     "C7"
+    ],
+    "refs": [
+     1
+    ]
+   },
+   {
+    "id": "F2",
+    "text": "City demand for A2 and organic milk is growing fastest.",
+    "kind": "interpretation",
+    "claim_ids": [
+     "C31"
+    ],
+    "refs": [
+     5
+    ]
+   },
+   {
+    "id": "F3",
+    "text": "Prices rose from ₹48 to ₹52 a litre in two years without a fall in buying.",
+    "kind": "interpretation",
+    "claim_ids": [
+     "C8",
+     "C6"
+    ],
+    "refs": [
+     1,
+     3
+    ]
+   }
+  ],
+  "signals_against": [
+   {
+    "id": "F4",
+    "text": "The co-operative controls most village collection, so raw milk supply is hard to secure.",
+    "kind": "fact",
+    "claim_ids": [
+     "C11"
+    ],
+    "refs": [
+     1
+    ]
+   },
+   {
+    "id": "F5",
+    "text": "The leading brand is also the cheapest, which squeezes any mass-market newcomer.",
+    "kind": "interpretation",
+    "claim_ids": [
+     "C14"
+    ],
+    "refs": [
+     7
+    ]
+   }
+  ],
+  "checks_before_investing": [
+   "Ask 3 distributors in Kochi what margin they take on packaged milk.",
+   "Visit 5 shops and note the shelf price and brands of every milk on sale.",
+   "Confirm the food-safety licence and pollution clearance cost and timeline.",
+   "Get quotes for a 5,000-litre-a-day plant from two suppliers.",
+   "Ask 20 households in Kochi whether they would pay ₹90–110 a litre for A2 milk."
+  ],
+  "not_found": [
+   "Costs and margins"
+  ],
+  "disclaimer": "Evidence to help you decide — not a recommendation to invest and not financial advice. Do the checks in 'Check before you invest' first."
+ }
+}

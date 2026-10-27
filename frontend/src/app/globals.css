@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens — Apple-inspired: off-white page, white cards, near-black ink, one blue accent.
+ * Verdict colours (verified / partly / unconfirmed / removed) differ in lightness too, not only hue.
+ * Dark mode follows the computer's setting (overrides below).
+ */
+@theme {
+  --color-paper: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-surface-2: #f5f5f7;
+  --color-ink: #1d1d1f;
+  --color-ink-soft: #424245;
+  --color-ink-faint: #6e6e73;
+  --color-rule: #e8e8ed;
+  --color-rule-soft: #f0f0f2;
+
+  --color-accent: #0071e3;
+  --color-accent-ink: #0066cc;
+  --color-accent-tint: #e8f1fc;
+  --color-on-accent: #ffffff;
+
+  --color-verified: #248a3d;
+  --color-verified-ink: #1b6b32;
+  --color-verified-tint: #eaf6ed;
+  --color-partial: #e8a33a;
+  --color-partial-ink: #8a4b00;
+  --color-partial-tint: #fdf3e4;
+  --color-unconfirmed: #aeaeb2;
+  --color-unconfirmed-ink: #515154;
+  --color-unconfirmed-tint: #f0f0f2;
+  --color-removed: #d70015;
+  --color-removed-ink: #a1001a;
+  --color-removed-tint: #fdecee;
+  --color-info-ink: #0b4f9c;
+  --color-info-tint: #eaf2fd;
+  --color-predict-ink: #5b3a8a;
+  --color-predict-tint: #f4eefb;
+  --color-bar: #c7c7cc;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --radius-card: 1.5rem;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.04), 0 8px 30px rgb(0 0 0 / 0.06);
+  --shadow-float: 0 1px 2px rgb(0 0 0 / 0.04), 0 12px 40px rgb(0 0 0 / 0.1);
+
+  --animate-rise: rise 0.4s ease-out both;
+  --animate-slide-in: slide-in 0.3s ease-out both;
+  --animate-pulse-ring: pulse-ring 1.6s ease-out infinite;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(24px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes pulse-ring {
+    0% {
+      box-shadow: 0 0 0 0 rgb(0 113 227 / 0.45);
+    }
+    70% {
+      box-shadow: 0 0 0 14px rgb(0 113 227 / 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgb(0 113 227 / 0);
+    }
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* screen only: a PDF printed in dark mode still comes out light */
+  :root {
+    --color-paper: #000000;
+    --color-surface: #1c1c1e;
+    --color-surface-2: #2c2c2e;
+    --color-ink: #f5f5f7;
+    --color-ink-soft: #d2d2d7;
+    --color-ink-faint: #a1a1a6;
+    --color-rule: #38383a;
+    --color-rule-soft: #2c2c2e;
+    --color-accent: #0a84ff;
+    --color-accent-ink: #4da3ff;
+    --color-accent-tint: #0d2a4a;
+    --color-verified: #30d158;
+    --color-verified-ink: #4ade80;
+    --color-verified-tint: #12301c;
+    --color-partial: #ffb340;
+    --color-partial-ink: #ffc26e;
+    --color-partial-tint: #3a2a10;
+    --color-unconfirmed: #636366;
+    --color-unconfirmed-ink: #c7c7cc;
+    --color-unconfirmed-tint: #2c2c2e;
+    --color-removed: #ff453a;
+    --color-removed-ink: #ff7a72;
+    --color-removed-tint: #3a1514;
+    --color-info-ink: #8cc2ff;
+    --color-info-tint: #0d2a4a;
+    --color-predict-ink: #d0b3ff;
+    --color-predict-tint: #2a1f3d;
+    --color-bar: #48484a;
+    --shadow-card: none;
+    --shadow-float: 0 12px 40px rgb(0 0 0 / 0.6);
+    color-scheme: dark;
+  }
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+[id] {
+  scroll-margin-top: 5rem; /* below the sticky header */
+}
+
+/* Print / Save as PDF: every report tab in order, on white, without screen-only parts. */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 12mm;
+  }
+  :root {
+    --color-paper: #ffffff;
+    --color-surface: #ffffff;
+    --shadow-card: none;
+    color-scheme: light;
+  }
+  html,
+  body {
+    background: #fff;
+    font-size: 10pt;
+  }
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+  .print-avoid-break {
+    break-inside: avoid;
+  }
+  .print-keep-next {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .overflow-x-auto {
+    overflow: visible;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    animation: none !important;
+  }
+}

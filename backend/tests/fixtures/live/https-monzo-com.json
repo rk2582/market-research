@@ -1,0 +1,413 @@
+{
+  "query": "https://monzo.com",
+  "elapsed_s": 18.2,
+  "findings": {
+    "company": {
+      "name": "Monzo Bank Limited",
+      "website": "https://monzo.com",
+      "identity_note": {
+        "text": "Matched Monzo Bank Limited, a British online digital bank headquartered in London, operating digital personal and business banking services through its website monzo.com.",
+        "source_urls": [
+          "https://monzo.com",
+          "https://en.wikipedia.org/wiki/Monzo"
+        ],
+        "kind": "fact"
+      },
+      "description": {
+        "text": "Monzo is a British online challenger bank founded in 2015, offering a mobile-first user-friendly and transparent banking experience with a focus on core banking, savings, credit, investments, pensions, and money management features.",
+        "source_urls": [
+          "https://monzo.com",
+          "https://pitchbook.com/profiles/advisor/118978-21",
+          "https://research.contrary.com/company/monzo",
+          "https://en.wikipedia.org/wiki/Monzo"
+        ],
+        "kind": "fact"
+      },
+      "industry": {
+        "text": "Monzo operates in the financial services and fintech industry, specifically as a digital challenger bank.",
+        "source_urls": [
+          "https://monzo.com",
+          "https://en.wikipedia.org/wiki/Monzo"
+        ],
+        "kind": "fact"
+      },
+      "products_services": [
+        {
+          "text": "Current accounts including joint accounts and accounts with worldwide travel insurance.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "Savings accounts offering up to 3.65% AER interest paid monthly.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "Credit cards suitable for both new and experienced credit users.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "Investment options starting from \u00a31, with automation features.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "Pension products allowing customers to consolidate and top up old pensions.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "Mortgage connection service to any lender with insights for savings.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "Money management features such as Salary Sorter, Pots for budgeting, spare change round ups, and cashback offers.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "customer_segments": [
+        {
+          "text": "Individual UK residents demanding user-friendly digital banking solutions across life stages.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        },
+        {
+          "text": "Customers seeking transparent banking with savings, credit, investments and pensions all managed in one app.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "geographic_presence": [
+        {
+          "text": "Headquartered in London, England and primarily serving UK residents.",
+          "source_urls": [
+            "https://monzo.com",
+            "https://en.wikipedia.org/wiki/Monzo"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "business_model": null,
+      "pricing": null,
+      "funding": null,
+      "recent_developments": [
+        {
+          "text": "In 2025, Monzo was recognized as a Which? Recommended Provider for Current Accounts.",
+          "source_urls": [
+            "https://monzo.com"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "positioning_usp": {
+        "text": "Monzo is positioned as a mobile-first digital challenger bank that simplifies personal finance by integrating core banking with savings, credit, investments, pensions, and money management features in one app, targeting UK consumers seeking transparency and convenience.",
+        "source_urls": [
+          "https://monzo.com",
+          "https://research.contrary.com/company/monzo"
+        ],
+        "kind": "interpretation"
+      }
+    },
+    "competitors": [
+      {
+        "name": "Starling Bank",
+        "website": "https://www.starlingbank.com",
+        "relation": "direct",
+        "description": {
+          "text": "Starling Bank is a UK-based digital challenger bank offering full service online personal and business current accounts with strong customer service and mobile banking features.",
+          "source_urls": [
+            "https://www.monito.com/en/wiki/online-banks-like-monzo",
+            "https://www.finder.com/uk/current-accounts/alternatives-to-monzo"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "Personal and business current accounts with full features through a mobile platform.",
+            "source_urls": [
+              "https://www.monito.com/en/wiki/online-banks-like-monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "UK individuals and small businesses looking for digital-first banking solutions.",
+            "source_urls": [
+              "https://www.monito.com/en/wiki/online-banks-like-monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": {
+          "text": "Known for comprehensive mobile banking and high customer satisfaction, competing closely with Monzo in the UK digital banking market.",
+          "source_urls": [
+            "https://www.finder.com/uk/current-accounts/alternatives-to-monzo"
+          ],
+          "kind": "fact"
+        }
+      },
+      {
+        "name": "Revolut",
+        "website": "https://www.revolut.com",
+        "relation": "direct",
+        "description": {
+          "text": "Revolut is a UK-based fintech company offering digital banking services including personal and business accounts with features for currency exchange, investments and budgeting.",
+          "source_urls": [
+            "https://www.cbinsights.com/company/monzo"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "Multi-currency accounts, business and personal current accounts, investments, and budgeting tools.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "Consumers and businesses seeking flexible, multi-currency digital financial services.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": {
+          "text": "A major competitor to Monzo in digital banking and wealth management with an international presence.",
+          "source_urls": [
+            "https://www.cbinsights.com/company/monzo"
+          ],
+          "kind": "fact"
+        }
+      },
+      {
+        "name": "Chime",
+        "website": "https://www.chime.com",
+        "relation": "indirect",
+        "description": {
+          "text": "Chime is a US-based neobank offering fee-free digital banking services focused on simple, accessible checking and savings accounts with automated savings features.",
+          "source_urls": [
+            "https://www.cbinsights.com/company/monzo"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "Fee-free checking and savings accounts with automatic savings and no overdraft fees.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "US consumers seeking low-cost, simple digital banking solutions.",
+            "source_urls": [
+              "https://www.cbinsights.com/company/monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": {
+          "text": "Popular neobank in the US market focusing on fee-free banking and automatic savings as a competitor conceptually to Monzo's digital banking approach.",
+          "source_urls": [
+            "https://www.cbinsights.com/company/monzo"
+          ],
+          "kind": "interpretation"
+        }
+      },
+      {
+        "name": "Monese",
+        "website": "https://monese.com",
+        "relation": "direct",
+        "description": {
+          "text": "Monese is a UK-based digital bank providing mobile banking accounts with easy setup, targeting users needing global access and inclusive banking services.",
+          "source_urls": [
+            "https://www.finder.com/uk/current-accounts/alternatives-to-monzo",
+            "https://www.monito.com/en/wiki/online-banks-like-monzo"
+          ],
+          "kind": "fact"
+        },
+        "offerings": [
+          {
+            "text": "Personal and business current accounts accessible via mobile app with multi-currency features.",
+            "source_urls": [
+              "https://www.finder.com/uk/current-accounts/alternatives-to-monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "pricing": null,
+        "target_segments": [
+          {
+            "text": "People in the UK and Europe needing flexible, no-branch digital banking solutions including expats and immigrants.",
+            "source_urls": [
+              "https://www.finder.com/uk/current-accounts/alternatives-to-monzo"
+            ],
+            "kind": "fact"
+          }
+        ],
+        "positioning": {
+          "text": "Known for ease of account setup and catering to customers requiring cross-border banking.",
+          "source_urls": [
+            "https://www.finder.com/uk/current-accounts/alternatives-to-monzo"
+          ],
+          "kind": "fact"
+        }
+      }
+    ],
+    "competitor_shortfall_reason": null,
+    "industry_context": [
+      {
+        "text": "The UK retail banking market size is around USD 83.88 billion in 2026 and projected to grow reflecting increasing adoption of digital banking platforms and open-banking APIs.",
+        "source_urls": [
+          "https://www.mordorintelligence.com/industry-reports/uk-retail-banking-market"
+        ],
+        "kind": "fact"
+      },
+      {
+        "text": "The financial technology industry in the UK is expected to grow at a CAGR of 21.1% over 2021-2026 reaching \u00a347.2 billion by 2026, driven by growth in digital banking services.",
+        "source_urls": [
+          "https://www.ibisworld.com/united-kingdom/industry/financial-technology/14450"
+        ],
+        "kind": "fact"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://monzo.com",
+      "title": "Monzo | Open a Free Account",
+      "excerpt": "[Skip to Content](#mainContent)\n\n[Sign up](https://monzo.com/sign-up)\n\n\n\n# Spend your money on life, not your life on money\n\nYour salary sorted into Pots. Your spare change turned into savings. Your money, doing what it should with Monzo.\n\n[Open a free Monzo account](https://monzo.com/sign-up)\n\n![Which? Recommended Provider for Current Accounts, November 2025.](https://images.ctfassets.net/ro61k101ee59/2ST9v6xxvjtK1fn5aU57Yw/4576856ecf5a05874bb3da186a0071ef/which-current-account-november-2025.png)![Current Account Switch Guarantee](https://images.ctfassets.net/ro61k101ee59/3BG7l6BqbCiuDWZPE0NBYv/b12a53e3f4f08c8713df4db9d99b8913/cass-lightmode.svg)![FSCS protected](https://images.ctfassets.net/ro61k101ee59/2Ifuc6xBw1zL2zfxpXrll7/064c067ef76fbf334f84fea55e7f7e5e/FSCS-badge-desktop.svg)\n\n![Which? Recommended Provider for Current Accounts, November 2025.](https://images.ctfassets.net/ro61k101ee59/2ST9v6xxvjtK1fn5aU57Yw/4576856ecf5a05874bb3da186a0071ef/which-current-account-november-2025.png)\n\n![Current Account Switch Guarantee](https://images.ctfassets.net/ro61k101ee59/3BG7l6BqbCiuDWZPE0NBYv/b12a53e3f4f08c8713df4db9d99b8913/cass-lightmode.svg)![FSCS protected](https://images.ctfassets.net/ro61k101ee59/2Ifuc6xBw1zL2zfxpXrll7/064c067ef76fbf334f84fea55e7f7e5e/FSCS-badge-desktop.svg)\n\nUK residents. Ts&Cs apply.\n\n## Get the most out of Monzo\n\nWhatever stage of life you're at, we've got your money covered.\n\n[**Open a free Monzo account**](https://monzo.com/sign-up)\n\n### Current accounts\n\nFrom joint accounts and accounts for kids, to accounts with worldwide travel insurance \u2013 choose one that works for you.\n\n[**Learn more**](https://monzo.com/current-account)\n\n![](https://images.ctfassets.net/ro61k101ee59/2eXg9548eheK5xgz8ui7yi/c9bea8b4e98bbc2ea3e4606870230b2b/homepage_current-accounts.avif?w=396&h=396&q=75&fm=avif)\n\n### Savings\n\nGrow your money in Monzo with up to 3.65% AER interest (variable), paid monthly.\n\n[**Learn more**](https://monzo.com/savings-isas)\n\n![](https://images.ctfassets.net/ro61k101ee59/1PY0tYoQ0CQLZaJGPRDp9P/9ec8ea0a730a2b8467d4cb23eefed9ad/homepage-savings.avif?w=1440&h=1440&q=75&fm=avif)\n\n### Credit\n\nGet a credit card with Monzo magic. Whether you're new to credit or a seasoned pro, there's something to suit you. Age 18+.\n\n[**Learn more**](https://monzo.com/credit-cards)\n\n![Man holding a bag of eucalyptus and a Monzo Flex card in his hand with his phone.](https://images.ctfassets.net/ro61k101ee59/6SLW2sBjLSbGouuEqm198e/df2f7edff82ee7b2382045958322dc9b/homepage_credit.avif?w=396&h=396&q=75&fm=avif)\n\n### Investments\n\nChoose from a range of options to suit your interests and the level of risk you\u2019re happy with. Starting with as little as \u00a31.\n\n[**Learn more**](https://monzo.com/investments)\n\n![](https://images.ctfassets.net/ro61k101ee59/2Ib8mEh3FA3Za5ZJ6WKgG8/75855431c6535efe495dd3a42c362744/homepage-investments.avif?w=1440&h=1440&q=75&fm=avif)\n\n### Pensions\n\nTrack down and bring your old pensions together under one roof, and top up whenever",
+      "retrieved_by": "extract"
+    },
+    {
+      "url": "https://pitchbook.com/profiles/advisor/118978-21",
+      "title": "Monzo Company Profile: Financings & Team | PitchBook",
+      "excerpt": "# Monzo\n\n## Monzo Overview\n\n##  Service  Commercial Bank\n\n##  Year Founded  2015\n\nYear Founded\n\n##  Professionals  4,977\n\nProfessionals\n\n##  Financed Companies  8\n\n### Monzo General Information\n\n#### Description\n\nEstablished in 2015, Monzo is a commercial bank, headquartered in London, England. The bank provides services related to core banking, internet banking, invoicing, overdrafts and loans for businesses.\n\n#### Contact Information\n\n##### Website\n\nwww.monzo.com\n\nFormerly Known As [...] Monzo total number of employees/professionals is 4,977.\n ### What service provider type is Monzo?\n\n  Monzo's service provider type is Commercial Bank.\n ### What companies has Monzo invested in or acquired?\n\n  Monzo has invested in or acquired companies like Habito, Riva, and Emblematic.\n\n### Data Transparency\n\n \n\n  Meet our data hygiene team\n\n  Discover how our experts ensure you\u2019re getting the most accurate financial data in the industry.\n\n  Read more\n \n\n  How PitchBook sources data [...] | Preferred Industries | Preferred Verticals | Preferred Deal Types | Geographic Preferences | Transaction Amount |\n ---  --- \n\nThis information is available in the PitchBook Platform. To explore Monzo\u2018s full p",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://research.contrary.com/company/monzo",
+      "title": "Report: Monzo Business Breakdown & Founding Story | Contrary Research",
+      "excerpt": "Monzo is a UK-based and fully regulated digital bank offering customers a user-friendly and transparent banking experience. While Monzo positions itself as a socially responsible company that prioritizes its customers over its profits, it has been criticized for its financial performance, as the company has reported significant losses for several years. While Monzo is still the fastest-growing digital bank in the UK, its expansion into the US has been slow and its unclear whether further [...] Monzo is a London-based challenger bank that aspires to change how banking is provided in the UK by addressing the poor service, low trust, and onerous fees frequently experienced with traditional banks. It wants to build a mobile-based financial hub for its customers. Originally the company offered financial products through bank partnerships, but as of 2017, Monzo received its banking license and became a fully regulated UK bank.\n\nWeekly Newsletter\n\nSubscribe to the Research Rundown [...] Fintech\n\nNeobank\n\nMonzo is a London-based challenger bank that aspires to change how banking is provided in the UK by addressing the poor service, low trust, and onerous fees frequently experienced with tr",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://vault.com/company-profiles/financial-technology/monzo",
+      "title": "Monzo | Company Profile - Vault",
+      "excerpt": "EmployersSchools\n\nRankings\n\nInternships\n\nVault Law\n\nGuides\n\nEvents\n\nBlog\n\nCareer Advice\n\nHeader image of Vault logo on grey background.\n\nMonzo logo\n\n# Monzo\n\n44 (203) 872-0620\n\n# Overview\n\nVault logo on a grey background.\n\n## Introduction\n\n## Company Stats\n\nEmployer Type\n\nSize\n\nMajor Departments\n\n---\n\nMajor Office Locations\n\n---\n\nCareer Site\n\n---\n\nGlobal CEO\n\n## About the Company\n\n## Perks & Benefits\n\nFamily & Wellness\n\nInsurance\n\nMoney\n\nProfessional Development\n\nWorkplace",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://uk.linkedin.com/company/monzo",
+      "title": "Monzo",
+      "excerpt": "# Monzo\n\nDescription: Time is money. Make the most out of both with Monzo. Britain's favourite bank.\nLinkedIn:  \u00b7 736,332 followers\nIndustry: Financial Services\nType: Privately Held\nHeadquarters: London, England, United Kingdom\nSocial Profiles:     \n\n## Employees\n- Now: 5,764",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Monzo",
+      "title": "Monzo - Wikipedia",
+      "excerpt": "Edit this on Wikidata\nIncrease\nIncrease\nDecrease\nIncrease\nIncrease\n\nMonzo Bank Limited, trading as Monzo (/\u02c8m\u0252nzo\u028a/), is a British online bank based in London, England. Monzo launched as part of a number of app-based challenger banks entering the UK market. [...] |  |  |\n --- |\n|  | |\n| Trade name | Monzo |\n| Formerly | Focus FS Limited (2015\u20132016) |\n| Industry | Financial services |\n| Founded | 18 February 2015; 11 years ago (2015-02-18) |\n| Founder | Gary Dolman Jason Bates Jonas Huckestein Paul Rippon Tom Blomfield Edit this on Wikidata |\n| Headquarters | London, England, UK |\n| Key people |  Gary Hoffman \"Gary Hoffman (businessman)\") (Chairman)  Diana Layfield (CEO) |\n| Products | Banking |\n| Revenue | Increase \u00a31,712.3 million (2026) | [...] Monzo Bank was founded as Mondo in 2015 by Tom Blomfield and his team. The team originally met whilst working at Starling Bank. In February 2016, Monzo set the record for \"quickest crowd-funding campaign in history\" when it raised \u00a31 million in 96 seconds via the Crowdcube investment platform.\n\nOn 15 May 2016, Monzo was named the 59th top startup in Startups.co.uk's annual Startups 100 ranking.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.cbinsights.com/company/monzo",
+      "title": "Monzo - Products, Competitors, Financials, Employees, Headquarters Locations",
+      "excerpt": "Competitors of Monzo include Seapoint, Shawbrook, Revolut, Chime, Colendi and 7 more.\n\nLoading...\n\n## Compare Monzo to Competitors\n\nStarling Bank Logo\n\nStarling Bank [...] The business neobanks market includes digital-first banking providers that offer business current accounts or cash accounts with payment rails, cards, and cash-management tools for SMBs, startups, freelancers, sole proprietors, and other businesses. These providers let businesses open and manage accounts online, send and receive domestic or cross-border payments, issue physical or virtual cards, m\u2026\n\nMonzo named as Challenger among 15 other companies, including Brex, Payoneer, and Ramp. [...] Monzo was founded in 2015.\n Where is Monzo's headquarters?\n\n  Monzo's headquarters is located at 5 Appold Street, London.\n What is Monzo's latest funding round?\n\n  Monzo's latest funding round is Secondary Market.\n How much did Monzo raise?\n\n  Monzo raised a total of $1.861B.\n Who are the investors of Monzo?\n\n  Investors of Monzo include Advent International, Nubank, GIC, StepStone Group, CapitalG and 41 more.\n Who are Monzo's competitors?",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "http://www.cbinsights.com/company/monzo/alternatives-competitors",
+      "title": "Top Monzo Alternatives, Competitors",
+      "excerpt": "Technology Vendors\n Recent Research\n Newsletter\n Media Support\n Login\n\nCB Insights\n\nMonzo company logo\n\n# Monzo\n\nmonzo.com\n\n## Monzo's alternatives and competitors\n\nSee how Monzocompares to similar products. Monzo's top competitors include Seapoint, Shawbrook, and Revolut.\n\nSeapoint Logo\n\nSeapoint\n\nSeapoint offers financial products, including business accounts, team cards, and treasury services. The company's services aim to assist with payroll, invoice payments,\u2026\n\n#### Monzo vs. Seapoint [...] Cumbuca provides infrastructure enabling access to Open Finance and Pix without intermediaries. It allows payment initiation and data access services for financial tech\u2026\n\n  Monzo vs. Cumbuca\n\n  View more in-depth data on:\n\n  + Competitors\n  + Products\n  + Customer References and more\n\n  Compare Monzo and Cumbuca\n\nNew call-to-action\n\n### Top10Monzocompetitors\n\n Seapoint\n Shawbrook\n Revolut\n Chime\n Colendi\n Varo\n OnePay\n Monese\n Greengage\n Cumbuca\n\n## Compare Monzo to Competitors [...] Current Logo\n\nCurrent\n\nCurrent is a financial technology company that focuses on providing banking services through a mobile platform. The company offers direct deposit accounts, fee-free overdraft, early acces",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.cbinsights.com/company/monzo/alternatives-competitors",
+      "title": "Top Monzo Alternatives, Competitors",
+      "excerpt": "Technology Vendors\n Recent Research\n Newsletter\n Media Support\n Login\n\nCB Insights\n\nMonzo company logo\n\n# Monzo\n\nmonzo.com\n\n## Monzo's alternatives and competitors\n\nSee how Monzocompares to similar products. Monzo's top competitors include Seapoint, Shawbrook, and Revolut.\n\nSeapoint Logo\n\nSeapoint\n\nSeapoint offers financial products, including business accounts, team cards, and treasury services. The company's services aim to assist with payroll, invoice payments,\u2026\n\n#### Monzo vs. Seapoint [...] Cumbuca provides infrastructure enabling access to Open Finance and Pix without intermediaries. It allows payment initiation and data access services for financial tech\u2026\n\n  Monzo vs. Cumbuca\n\n  View more in-depth data on:\n\n  + Competitors\n  + Products\n  + Customer References and more\n\n  Compare Monzo and Cumbuca\n\nNew call-to-action\n\n### Top10Monzocompetitors\n\n Seapoint\n Shawbrook\n Revolut\n Chime\n Colendi\n Varo\n OnePay\n Monese\n Greengage\n Cumbuca\n\n## Compare Monzo to Competitors [...] Current Logo\n\nCurrent\n\nCurrent is a financial technology company that focuses on providing banking services through a mobile platform. The company offers direct deposit accounts, fee-free overdraft, early acces",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.monito.com/en/wiki/online-banks-like-monzo",
+      "title": "Online Banks Like Monzo: The Best Monzo Alternatives in the UK",
+      "excerpt": "Starling Bank is a direct competitor of Monzo and a long-standing rival in the UK's financial technology industry. In fact, they have a common origin story (which we highly recommend you learn about with our mini-documentary on YouTube). [...] recommendation\n\nWhile Monzo is a great UK online banking app, see where the strongest Monzo competitors out-compete:\n\n Starling Bank: Open a full service online personal account. | Read our full review\n Wise: Hold and spend balances in over 50 foreign currencies. | Read our full review\n\n## Key Facts About Online Banks Like Monzo [...] Starling Bank is the best Monzo competitor in the UK. Other simliar apps include Monese, and Wise.\n Does Monzo bank have branches?\n\n  No, Monzo has no brick-and-mortar branches. Monzo is a digital bank that operates fully online.\n What is better than Monzo?\n\n  We think Starling Bank is the best Monzo alternative, and the best online bank in the UK overall.\n Which bank is better Starling or Monzo?",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.finder.com/uk/current-accounts/alternatives-to-monzo",
+      "title": "Alternatives to Monzo: A list of similar banks and apps",
+      "excerpt": "### Main alternatives to Monzo\n\nThe 2 main rivals to Monzo are considered to be Starling and Revolut. These 3 banking brands all launched within a few years of one another in the UK, they all operate digital-only accounts, and their free accounts all have similar features.\n\nIn our comparison below, we\u2019ve also looked at Chase and Monese.\n\n#### Starling [...] A more comprehensive comparison can be made by reading our Monzo vs Monese guide.\n\n### Are challengers safe?\n\nMonzo operates a full UK bank account, so deposits of up to \u00a3120,000 are protected by the Financial Services Compensation Scheme (FSCS), as is standard for licensed UK banks.\n\nChase, Revolut and Starling also both have a UK banking licence, and therefore offer the same deposit protection as Monzo. [...] # Alternatives to Monzo: A list of similar banks and apps\n\n## With digital banks like Monzo, it\u2019s easy to open up accounts without all the in-branch faff. See what your options are.\n\nBy\n\n Michelle Stevens\n\nUpdated\n\nFact checked\n\n### Top alternative banks and apps to Monzo\n\nThe main alternatives to Monzo are Starling and Revolut. Zempler and Monese are a bit smaller, but should fill that gap in the market.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.marketresearchfuture.com/reports/uk-digital-banking-market-55175",
+      "title": "UK Digital Banking Market Size, Share Report and Growth 2035",
+      "excerpt": "2035 Market Size\n\n$ 18.8 Billion\n\nBFSI \u25cf Updated August 24, 2026 Report ID: MRFR/BS/53410-HCR | Pages: 200 | Author: Nirmit Biswas, Garvit Vyas\n\nRequest Free Sample\n\n## UK Digital Banking Market Summary",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/digital-banking-platforms-market-component-113800686.html",
+      "title": "Digital Banking Platforms Market by Component, Banking Type, Banking Mode, Deployment Type and Region - Global Forecast to 2026",
+      "excerpt": "The global Digital Banking Platforms market size is expected to grow USD 8.2 billion in 2021 to USD 13.9 billion by 2026, at a Compound Annual Growth Rate (CAGR) of 11.3% during the forecast period.\n\nThe digital banking platforms market is gaining traction due to Increasing adoption of cloud-based solutions by financial institutions and proliferation of smartphones are expected to drive the overall growth of digital banking platforms market.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.mordorintelligence.com/industry-reports/uk-retail-banking-market",
+      "title": "UK Retail Banking Market Size, Trends & Growth Report 2031",
+      "excerpt": "The United Kingdom retail banking market stands at USD 83.88 billion in 2026 and is projected to reach USD 105.64 billion by 2031, reflecting a market size expansion at a 4.72% CAGR. Growth momentum in the United Kingdom retail banking market is reinforced by structural hedge reinvestment benefits that support net interest income even as policy rates decline. Open-banking APIs are driving account aggregation and switching at scale in the United Kingdom retail banking market, while regulated [...] and accelerated product innovation in bank-originated propositions. UK Finance reported that gross lending by main high street lenders to SMEs rose 16% in Q1 2026 versus Q1 2025, indicating active demand capture where banks can combine credit, cash management, and digital servicing. These shifts favor providers that can pair strong risk and compliance execution with API-enabled partnerships and efficient digital servicing at national scale. [...] Market Overview\n\n|  |  |\n --- |\n| Study Period | 2020 - 2031 |\n| Forecast Data Period | 2026 - 2031 |\n| Historical Data Period | 2020 - 2024 |\n| Market Size (2026) | USD 83.88 Billion |\n| Market Size (2031) | USD 105.64 Billion |\n| Growth Rate (20",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/north-america-digital-banking-market-100000522.html",
+      "title": "North America Digital Banking Market size to hit $800bn by 2026, says Graphical Research",
+      "excerpt": "Europe Digital Banking Market Size, By Type (Retail Banking, Corporate Banking, Investment Banking), By Service (Transactional [Cash Deposits & Withdrawals, Fund Transfers, Auto-debit/Auto-credit Services, Loans], Non-transactional [Information Security, Risk Management, Financial Planning, Stock Advisory]), Industry Analysis Report, Regional Outlook (UK, Germany, France, Italy, Spain, Netherlands, Russia), Growth Potential, Competitive Market Share & Forecast, 2020-2026 [...] As per a recent industry report put forward by Graphical Research, the North America digital banking market is forecast to register its name in the billion-dollar fraternity down the line of seven years, by exceeding a revenue of USD 800 billion by 2026.\n\n @ [...] Canada digital banking industry size is set to expand at a noteworthy rate between 2020 and 2026. Banking enterprises throughout the nation are migrating to digital channels for accelerating operations and coping with the losses incurred during the pandemic.",
+      "retrieved_by": "search"
+    },
+    {
+      "url": "https://www.ibisworld.com/united-kingdom/industry/financial-technology/14450",
+      "title": "Financial Technology in the UK Industry Analysis, 2026",
+      "excerpt": "When you\u2019re able to speak to clients and be knowledgeable about what they do and the state that they operate in, they\u2019re going to trust you a lot more.\n\nCiti Bank logo\n\n### 10,000,000+ Data points\n\n### 100% Industry analyst verified\n\n### 50,000 + Industry titles\n\n## Frequently Asked Questions\n\n### What is the market size of the Financial Technology industry in the United Kingdom in 2026?\n\nThe market size of the Financial Technology industry in the United Kingdom is \u00a347.2bn in 2026. [...] returns on customer balances. Industry revenue is expected to grow at a compound annual rate of 21.1% over the five years through 2026-27 to reach \u00a347.2 billion, including estimated growth of 12.1% in 2025-26. [...] ### Has the Financial Technology industry in the United Kingdom grown or declined over the past 5 years?\n\nThe market size of the Financial Technology industry in the United Kingdom has been\ngrowing\nat a CAGR of 21.1 % between 2021 and 2026.\n\n### What is the forecast growth of the Financial Technology industry in the United Kingdom over the next 5 years?\n\nOver the next five years, the Financial Technology industry in the United Kingdom is expected to\ngrow.",
+      "retrieved_by": "search"
+    }
+  ],
+  "usage": {
+    "agent_version": "researcher@3",
+    "model": "gpt-4.1-mini",
+    "input_tokens": 12559,
+    "output_tokens": 1862,
+    "total_tokens": 14421,
+    "tool_calls": 4,
+    "duration_ms": 17331
+  }
+}
